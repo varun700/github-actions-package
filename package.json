@@ -1,11 +1,14 @@
 {
-  "name": "varun-react-npm-package1",
+  "name": "@varun700/varun-react-npm-package1",
   "version": "1.0.1",
   "description": "",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@varun700"
+  },
+  "repository": {
+    "url": "https://github.com/varun700/varun-react-npm-package1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
