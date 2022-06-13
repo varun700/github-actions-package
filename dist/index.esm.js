@@ -1,1 +1,1 @@
-import t from"react";var e=function(e){var r=e.content;return t.createElement("button",null,r)};export{e as default};
+import t from"react";var e=function(e){var n=e.content;return t.createElement("div",null,t.createElement("button",{style:{color:"green",backgroundColor:"yellow"}},n))},n=function(e){var n=e.content;return t.createElement("button",null,n)};export{e as Buttoncolor,n as Simplebutton};
