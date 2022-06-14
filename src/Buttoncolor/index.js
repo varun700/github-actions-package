@@ -1,10 +1,9 @@
 import React from "react";
+import "./style.css";
 const index = ({ content }) => {
   return (
     <div>
-      <button style={{ color: "green", backgroundColor: "yellow" }}>
-        {content}
-      </button>
+      <button className="primary">{content}</button>
     </div>
   );
 };
